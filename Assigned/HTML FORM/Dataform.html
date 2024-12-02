@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Dataform.css" >
+</head>
+<body>
+
+ <form>
+   <section>
+   <h2>CREATE AN ACCOUNT</h2>
+   <ul>
+    <li>
+      <label for="username">First Name</label>
+      <input type="text" name="user-name" id="username" placeholder="Input your first name" required/>
+    </li>
+
+    <li>
+      <label for="username">Last Name</label>
+      <input type="text" name="user-name" id="username" placeholder="Input your last name" required/>
+    </li>
+
+    <li>
+      <label for="useremail">Email Address</label>
+      <input type="email" name="user-name" id="useremail" placeholder="Input your email address" required/>
+    </li>
+
+    <li>
+      <label for="userphone">Phone Number</label>
+      <input type="number" name="user-phone" id="userphone" placeholder="Input your phone number" required/>
+    </li>
+
+    <li>
+      <label for="userpassword">Password</label>
+      <input type="text" name="user-password" id="userpassword" placeholder="Input your password" required/>
+    </li>
+    
+    <li>
+      <label for="username">Date Of Birth</label>
+      <input type="text"  placeholder="Input your date of birth"/>
+    </li>
+
+    <li>
+      <label for="occupation">Occupation</label>
+      <input type="text"  placeholder="Input your occupation"/>
+    </li>
+
+   </ul>
+
+  </section> <br />
+
+  <section>
+    <b>Gender</b>
+    <ul id="gender">  
+      <li class="form-control-inline">  
+        <input type="radio" name="verify" required/>
+        <label>Male</label>
+      </li>
+
+      <li class="form-control-inline">
+        <input type="radio" name="verify" required/>
+        <label>Female</label>
+      </li>
+   </ul>     <br />
+
+
+   <ul> <b>Hobbies</b> 
+    <li class="form-control-inline">  
+      <input type="checkbox"  required/>
+      <label>Reading</label>
+    </li>   <br />
+
+    <li class="form-control-inline">
+    <input type="checkbox"  required/>
+    <label>Coding</label>
+    </li>   <br />
+
+    <li class="form-control-inline">
+      <input type="checkbox"  required/>
+      <label>Dancing</label>
+    </li>   <br />
+
+    <li class="form-control-inline">
+      <input type="checkbox"  required/>
+      <label>Playing</label>
+    </li>   <br />
+
+    <li class="form-control-inline">
+      <input type="checkbox"  required/>
+      <label>Camping</label>
+    </li>    <br />
+ </ul>
+  </section>
+
+  <section id="form-actions">
+    <button type="reset" class="btn-empty">Clear</button>
+    <button type="submit" class="btn-filled">Submit</button>
+  </section>
+
+ </form>
+</body>
+</html>

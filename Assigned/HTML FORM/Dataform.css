@@ -1,0 +1,66 @@
+body{
+    width: 80%;
+   background-color: antiquewhite;
+   place-self: center;
+   font-family: sans-serif;
+
+
+}
+ h2{
+    text-align: center;
+ }
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    width: 27rem;
+    margin: 2rem auto;
+    background-color: rgb(174, 243, 160);
+    padding: 1rem;
+    border-radius: 0px;
+    border: 5px solid red;
+}
+
+.form-control-inline{
+    display: flex;
+
+}
+.form-control-inline input{
+    width: auto; 
+}
+
+label{
+    margin-bottom: 0.5rem;
+    display: block;
+    color: rgb(239, 12, 12) ;
+    font-weight: bold;
+}
+
+input{
+    border-radius: 4px;
+    width: 95%;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+
+.btn-filled{
+    background-color: rgb(51, 67, 100);
+    color: white;
+}
+.btn-empty{
+    background-color: rgb(215, 216, 218);
+}
+
+button{
+    width: 15%;
+    
+    border: 2px solid red;
+    border-radius: 4px;
+}
+#form-actions{
+    text-align: right;
+}
